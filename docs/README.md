@@ -3,7 +3,7 @@
 [Branches: Metasound Plugins](https://github.com/matthewscharles/metasound-branches)
 <div class="embed-container">
     <iframe width="640" height="390" 
-    src="https://www.youtube.com/watch?v=HgudP5fzDWM" 
+    src="https://www.youtube.com/embed/HgudP5fzDWM" 
     frameborder="0" allowfullscreen></iframe>
 </div>
 <style>
