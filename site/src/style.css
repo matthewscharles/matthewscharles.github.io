@@ -17,6 +17,10 @@
   box-sizing: border-box;
 }
 
+.titles{
+  text-align: center;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -29,6 +33,7 @@ a:hover {
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
@@ -46,6 +51,11 @@ h1 {
   text-align: center;
 }
 
+.links {
+  text-align: left;
+  font-size: 0.9em;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
@@ -60,12 +70,12 @@ h1 {
 }
 
 .card {
-  padding: 2em;
+  padding: 0.1em;
+  margin: 0.1em;
+  /* border: 1px solid #646cff; */
+  border-radius: 2px;
 }
 
-.read-the-docs {
-  color: #888;
-}
 
 button {
   border-radius: 8px;
@@ -90,9 +100,9 @@ button:focus-visible {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1em;
-  padding: 1em;
-  background-color: gray;
+  gap: 0.5em;
+  padding: 0.5em;
+  background-color: #5a5a5a;
 }
 
 .embed-container {
