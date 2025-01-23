@@ -8,6 +8,8 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
     max-width: 600px;
     margin: 0 auto;
+    display:flex;
+    flex-direction:column;
 }
 
 /* Project Header Section */
@@ -48,6 +50,9 @@
 }
 
 /* YouTube Video Section */
+.project-video{
+    flex-grow:1;
+}
 .project-video iframe {
     display: block;
     width: 100%;
@@ -63,6 +68,7 @@
     text-align: center;
     font-size: 0.75rem;
     color: #333;
+    margin-top: 0;
 }
 
 .video-title-box a {

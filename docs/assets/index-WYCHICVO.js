@@ -1,4 +1,4 @@
-<!-- <ul dir="auto">
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))i(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const n of t.addedNodes)n.tagName==="LINK"&&n.rel==="modulepreload"&&i(n)}).observe(document,{childList:!0,subtree:!0});function a(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function i(e){if(e.ep)return;e.ep=!0;const t=a(e);fetch(e.href,t)}})();const r=`<!-- <ul dir="auto">
   <li><a href="https://github.com/matthewscharles/metasound-plugins/">Branches</a>: a MetaSound plugin for Unreal Engine (C++)</li>
   <li><a href="https://www.good-vibrations.org.uk/gamelan-room/" rel="nofollow">Gamelan Room</a>: a web music app commissioned by Good Vibrations</li>
   <li><a href="https://www.humaninstruments.co.uk/haptic-baton" rel="nofollow">Haptic Baton</a>: accessible music technology as featured on <a href="https://www.youtube.com/watch?v=GPajyVGw82s" rel="nofollow">CNN</a></li>
@@ -117,4 +117,10 @@
         <a href="https://www.youtube.com/embed/zQFO18hA9kI" target="_blank">Gamelan Room: sequencer demo</a>
     </div>
   </li>
-</ul>
+</ul>`;document.querySelector("#app").innerHTML=`
+    <a href="https://github.com/matthewscharles/"><img src="icons/github-mark.svg" height="15em"> matthewscharles</a>
+    <div class="card links">
+      ${r}
+    </div>
+    <hr>
+`;
