@@ -167,12 +167,15 @@ button:focus-visible {
 @media (max-width: 480px) {
   h1 {
     font-size: 2em;
+    text-align:left;
   }
   h2 {
     font-size: 1.1em;
+    text-align:left;
   }
   h3 {
     font-size: 1.1em;
+    text-align: left;
   }
   #app {
     max-width: 99vw;

@@ -119,6 +119,24 @@
 }
 
 /* Responsive Layout */
+
+/* Responsive Layout */
+@media (max-width:720px) {
+    .project-thumbnail img {
+        width: 75px;
+        height: 75px;
+        object-fit: cover;
+        border-radius: 5px;
+    }
+    
+    .container{
+        max-width: 80vw;
+    }
+    .card-container {
+        max-width: 800px;
+    }
+}
+
 @media (max-width:1160px) {
     .project-card {
         
