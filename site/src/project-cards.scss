@@ -128,6 +128,19 @@
         object-fit: cover;
         border-radius: 5px;
     }
+    .project-more {
+        font-size: 1rem;
+        ul {
+            list-style: none;  /* Removes default bullet markers */
+            padding-left: 0.8em;        /* Removes default left padding */
+            margin: 0;         /* Removes any top/bottom margin */
+          }
+        
+          li {
+            margin-bottom: 0.5rem;
+          }
+    }
+    
     
     .container{
         max-width: 80vw;
