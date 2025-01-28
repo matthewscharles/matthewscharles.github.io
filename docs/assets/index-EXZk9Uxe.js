@@ -1,4 +1,4 @@
-<ul class="card-container" role="list">
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const n of e)if(n.type==="childList")for(const i of n.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&t(i)}).observe(document,{childList:!0,subtree:!0});function a(e){const n={};return e.integrity&&(n.integrity=e.integrity),e.referrerPolicy&&(n.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?n.credentials="include":e.crossOrigin==="anonymous"?n.credentials="omit":n.credentials="same-origin",n}function t(e){if(e.ep)return;e.ep=!0;const n=a(e);fetch(e.href,n)}})();const r=`<ul class="card-container" role="list">
   <li class="project-card" role="listitem">
     <div class="project-header">
         <div class="project-thumbnail">
@@ -7,7 +7,7 @@
           </a>
         </div>
         <div class="project-content">
-          <h3><a href="https://www.youtube.com/watch?v=JACIFoUdL-o&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE" class="project-name">Game Audio Playlist</a></h3>
+          <a href="https://www.youtube.com/watch?v=JACIFoUdL-o&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE" class="project-name">Game Audio Playlist</a>
           <div class="project-icons">
             <img src="icons/unreal-engine-svgrepo-com.svg" class="icon-category" alt="Unreal Engine logo">
             <img src="icons/ISO_C++_Logo.svg" onclick="preventDefault()" alt="C++ Logo" class="icon-category">
@@ -29,7 +29,7 @@
           <li><a href="https://www.youtube.com/watch?v=JACIFoUdL-o&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=1">‣ Sink the Drum Machine (UE + Wwise)</a></li>
           <li><a href="https://www.youtube.com/watch?v=OsNpiJt_E9Q&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=2">‣ The Transitions: foley and space demo</a></li>
           <li><a href="https://www.youtube.com/watch?v=bDwOI6jmXPo&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=3">‣ Game Animation Sample Project</a></li>
-          <li><a href="https://www.youtube.com/watch?v=wVmA1v8fNa8&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=4">‣ Fortnite (sound redesign)</a></li>
+          <li><a href="https://www.youtube.com/watch?v=wVmA1v8fNa8&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=4">‣ Linear redesign: Fortnite</a></li>
           <li><a href="https://www.youtube.com/watch?v=HgudP5fzDWM&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=5">‣ Branches plugin</a></li>
           <li><a href="https://www.youtube.com/watch?v=gC1We0uL63w&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=6">‣ Procedural music</a></li>
       </ul>
@@ -55,7 +55,7 @@
           </a>
         </div>
         <div class="project-content">
-          <h3><a href="https://matthewscharles.github.io/metasound-branches/" class="project-name">Branches plugin</a></h3>
+          <a href="https://matthewscharles.github.io/metasound-branches/" class="project-name">Branches plugin</a>
           <div class="project-icons">
             <img src="icons/ISO_C++_Logo.svg" onclick="preventDefault()" alt="C++ Logo" class="icon-category">
             <img src="icons/unreal-engine-svgrepo-com.svg" class="icon-category" alt="Unreal Engine logo">
@@ -78,7 +78,7 @@
       </iframe>
     </div>
     <div class="video-title-box">
-        <a href="https://www.youtube.com/embed/HgudP5fzDWM?si=0JrRcT-wfprh7L-b" target="_blank">Branches demo</a>
+        <a href="https://www.youtube.com/embed/HgudP5fzDWM?si=0JrRcT-wfprh7L-b" target="_blank">Branches demo: example patches</a>
     </div>
   </li>
 
@@ -90,7 +90,7 @@
           </a>
         </div>
         <div class="project-content">
-          <h3><a href="https://store.steampowered.com/app/3408610/The_Transitions/" class="project-name">The Transitions</a></h3>
+          <a href="https://store.steampowered.com/app/3408610/The_Transitions/" class="project-name">The Transitions</a>
           <div class="project-icons">
             <img src="icons/unreal-engine-svgrepo-com.svg" class="icon-category" alt="Unreal Engine logo">
           </div>
@@ -100,7 +100,7 @@
     <div class="project-content">
       
       <p class="project-description">I am currently working on the audio design and technical implementation for this psychological horror game.</p>
-      <p class="project-description">Now available to wishlist on Steam: <a href="https://store.steampowered.com/app/3408610/The_Transitions/">The Transitions</a> </p>
+      <p class="project-description">Now available to wishlist: <a href="https://store.steampowered.com/app/3408610/The_Transitions/">The Transitions on Steam</a> </p>
     </div>
     <div class="project-video">
       <iframe  src="https://www.youtube.com/embed/OsNpiJt_E9Q" 
@@ -124,7 +124,7 @@
           </a>
         </div>
         <div class="project-content">
-          <h3><a href="https://www.good-vibrations.org.uk/gamelan-room" class="project-name">Gamelan Room</a></h3>
+          <a href="https://www.good-vibrations.org.uk/gamelan-room" class="project-name">Gamelan Room</a>
           <div class="project-icons">
             <img src="icons/Unofficial_JavaScript_logo_2.svg" class="icon-category" alt="JavaScript logo">
             <img src="icons/Blender_logo_no_text.svg" class="icon-category" alt="Blender logo">
@@ -134,7 +134,7 @@
     </div>
     <div class="project-content">
       <p class="project-description">
-        This app was commissioned by the charity Good Vibrations for music workshops in prisons and general public use. Access instruments using a touch screen or keyboard, with MIDI support on Chrome (desktop).
+        This app for was commissioned by Good Vibrations for music workshops in prisons and general public use. Access instruments using a touch screen or keyboard, with MIDI support on Chrome (desktop).
       </p>
       <p class="project-description">Originally developed in JavaScript as a downloadable PWA, I am currently working on a version in Unity that will add options not supported by Webkit.</p>
     </div>
@@ -148,7 +148,7 @@
       </iframe>
     </div>
     <div class="video-title-box">
-        <a href="https://www.youtube.com/embed/zQFO18hA9kI" target="_blank">Gamelan Room demo</a>
+        <a href="https://www.youtube.com/embed/zQFO18hA9kI" target="_blank">Gamelan Room: sequencer demo</a>
     </div>
   </li>
   
@@ -160,7 +160,7 @@
           </a>
         </div>
         <div class="project-content">
-          <h3><a href="https://www.github.com/matthewscharles/" class="project-name">Music Technology</a>
+          <a href="https://www.github.com/matthewscharles/" class="project-name">Music Technology</a>
           <div class="project-icons">
             <img src="icons/ISO_C++_Logo.svg" onclick="preventDefault()" alt="C++ Logo" class="icon-category">
             <img src="icons/Unofficial_JavaScript_logo_2.svg" class="icon-category" alt="JavaScript logo">
@@ -199,4 +199,9 @@
         <a href="https://www.youtube.com/embed/GPajyVGw82s" target="_blank">The Haptic Baton on CNN</a>
     </div>
   </li>
-</ul>
+</ul>`;document.querySelector("#app").innerHTML=`
+    <div class="card links">
+      ${r}
+    </div>
+    
+`;

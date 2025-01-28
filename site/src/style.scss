@@ -99,14 +99,15 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  :hover {
+    border-color: #646cff;
+  }
+  :focus,
+  :focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
 }
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
 
 .IframeYT {
  max-width:90%;
@@ -134,7 +135,7 @@ button:focus-visible {
 
 .embed-container {
   position: relative;
-  padding: none;
+  padding: 0;
   padding-bottom: 56.25%;
   height: 0;
   overflow: hidden;
@@ -179,11 +180,11 @@ button:focus-visible {
   }
   #app {
     max-width: 99vw;
-    margin:none;
-    padding:none;
+    margin:0;
+    padding:0!important;
   }
   body{
-    margin:none;
+    margin:0;
     min-width: auto;
   }
 }
