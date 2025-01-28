@@ -141,6 +141,7 @@ button {
   overflow: hidden;
   max-width: 100%;
 }
+
 .embed-container iframe,
 .embed-container object,
 .embed-container embed {
@@ -157,9 +158,11 @@ button {
     color: #213547;
     background-color: #f1f1f1;
   }
+  
   a:hover {
     color: #747bff;
   }
+  
   button {
     background-color: #f9f9f9;
   }
@@ -170,19 +173,23 @@ button {
     font-size: 2em;
     text-align:left;
   }
+  
   h2 {
     font-size: 1.1em;
     text-align:left;
   }
+  
   h3 {
     font-size: 1.1em;
     text-align: left;
   }
+  
   #app {
     max-width: 99vw;
     margin:0;
     padding:0!important;
   }
+  
   body{
     margin:0;
     min-width: auto;
