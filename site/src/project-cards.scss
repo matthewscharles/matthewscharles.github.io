@@ -35,6 +35,7 @@
 
 .project-more {
     font-size: 1rem;
+    
     ul {
         list-style: none;  
         margin: 0;         
@@ -56,6 +57,7 @@
     flex-grow:1;
     aspect-ratio: 16/9;
     position:relative;
+    
     iframe {
         position:absolute;
         top:0;
@@ -94,7 +96,8 @@
 
 .about{
     max-width: 800px; 
-    &.extralinks{
+    
+    &.extralinks {
         font-size:0.9em;
     }
 }
@@ -127,7 +130,6 @@
 
 /* Responsive Layout */
 
-/* Responsive Layout */
 @media (max-width:720px) {
     h3{
         margin:0;
@@ -207,4 +209,4 @@
     .card-container {
         // grid-template-columns: repeat(4, 1fr);
     }
-}/* Main Card Container */
+}
