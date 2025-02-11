@@ -1,4 +1,4 @@
-<ul class="card-container" role="list">
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const n of e)if(n.type==="childList")for(const i of n.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&t(i)}).observe(document,{childList:!0,subtree:!0});function a(e){const n={};return e.integrity&&(n.integrity=e.integrity),e.referrerPolicy&&(n.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?n.credentials="include":e.crossOrigin==="anonymous"?n.credentials="omit":n.credentials="same-origin",n}function t(e){if(e.ep)return;e.ep=!0;const n=a(e);fetch(e.href,n)}})();const s=`<ul class="card-container" role="list">
   <li class="project-card" role="listitem">
     <div class="project-header">
         <div class="project-thumbnail">
@@ -27,7 +27,7 @@
     <div class="project-more">
       <ul>
           <li><a href="https://www.youtube.com/watch?v=JACIFoUdL-o&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=1">‣ Sink the Drum Machine (UE + Wwise)</a></li>
-          <li><a href="https://www.youtube.com/watch?v=OsNpiJt_E9Q&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=2">‣ The Transitions: foley and space concept mix</a></li>
+          <li><a href="https://www.youtube.com/watch?v=OsNpiJt_E9Q&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=2">‣ The Transitions: foley and space demo</a></li>
           <li><a href="https://www.youtube.com/watch?v=bDwOI6jmXPo&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=3">‣ Game Animation Sample Project</a></li>
           <li><a href="https://www.youtube.com/watch?v=wVmA1v8fNa8&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=4">‣ Fortnite (sound redesign)</a></li>
           <li><a href="https://www.youtube.com/watch?v=HgudP5fzDWM&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=5">‣ MetaSound Branches plugin</a></li>
@@ -203,4 +203,9 @@
         <a href="https://www.youtube.com/embed/GPajyVGw82s" target="_blank">The Haptic Baton on CNN</a>
     </div>
   </li>
-</ul>
+</ul>`;document.querySelector("#app").innerHTML=`
+    <div class="card links">
+      ${s}
+    </div>
+    
+`;
