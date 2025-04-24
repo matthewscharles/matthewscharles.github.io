@@ -1,4 +1,4 @@
-<ul class="card-container" role="list">
+(function(){const o=document.createElement("link").relList;if(o&&o.supports&&o.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))t(e);new MutationObserver(e=>{for(const n of e)if(n.type==="childList")for(const i of n.addedNodes)i.tagName==="LINK"&&i.rel==="modulepreload"&&t(i)}).observe(document,{childList:!0,subtree:!0});function a(e){const n={};return e.integrity&&(n.integrity=e.integrity),e.referrerPolicy&&(n.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?n.credentials="include":e.crossOrigin==="anonymous"?n.credentials="omit":n.credentials="same-origin",n}function t(e){if(e.ep)return;e.ep=!0;const n=a(e);fetch(e.href,n)}})();const s=`<ul class="card-container" role="list">
   
 
 
@@ -23,13 +23,13 @@
     <div class="project-content">
       
       <p class="project-description">
-       Explore this playlist for examples of audio design, implementation, plugin development, and procedural music.
+       Explore this playlist for recent examples of audio implementation, sound redesign, plugin development, and procedural music.
       </p>
       <hr>
     </div>
     <div class="project-more">
       <ul>
-          <li><a href="https://www.youtube.com/watch?v=bDwOI6jmXPo&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=1">‣ Unreal Engine footstep system using data assets</a></li>  
+          <li><a href="https://www.youtube.com/watch?v=bDwOI6jmXPo&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=1">‣ Game Animation Sample Project: footsteps from data assets</a></li>  
           <li><a href="https://www.youtube.com/watch?v=JACIFoUdL-o&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=2">‣ Sink the Drum Machine (UE + Wwise)</a></li>
           <li><a href="https://www.youtube.com/watch?v=3I7n9CGu9TI&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=3">‣ Fortnite (sound redesign)</a></li>
           <li><a href="https://www.youtube.com/watch?v=OsNpiJt_E9Q&list=PLIKWa1FaZD5y24pnfeUiXkJ6GzWY5KAUE&index=4">‣ The Transitions: foley and space concept mix</a></li>
@@ -211,4 +211,9 @@
   </li>
   
   
-</ul>
+</ul>`;document.querySelector("#app").innerHTML=`
+    <div class="card links">
+      ${s}
+    </div>
+    
+`;
