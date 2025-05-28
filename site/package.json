@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "lightbox2": "^2.11.5",
     "sass": "^1.83.4",
     "vite": "^6.0.5"
   }
